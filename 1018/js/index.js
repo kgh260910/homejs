@@ -50,6 +50,7 @@ function addEvents() {
         console.log('listMenuBtn CLICKED!!');
 
         showSelectedView(VIEW_NO.DIARY_LIST_VIEW);
+        
 
     });
 
@@ -67,9 +68,9 @@ function addEvents() {
         alert('SIGN-UP SUCCESS!!');
 
         doElementValueClean(
-            document.querySelector('div.sign_up_wrap input[name="u_id'),
-            document.querySelector('div.sign_up_wrap input[name="u_pw'),
-            document.querySelector('div.sign_up_wrap input[name="u_mail'),
+            document.querySelector('div.sign_up_wrap input[name="u_id"]'),
+            document.querySelector('div.sign_up_wrap input[name="u_pw"]'),
+            document.querySelector('div.sign_up_wrap input[name="u_mail"]'),
         )
 
         showSelectedView(VIEW_NO.SIGN_IN_VIEW);
@@ -117,5 +118,6 @@ function addEvents() {
 
         document.querySelector('div.write_wrap input').value = '';
     });
+
 
 }
