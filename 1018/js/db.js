@@ -1,8 +1,8 @@
-if (localStorage.getItem('memberDB') === undefined) {
+if (!localStorage.getItem('memberDB')) {
     localStorage.setItem('memberDB', JSON.stringify({}));
 }
 
-if (localStorage.getItem('diaryDB') === undefined) {
+if (!localStorage.getItem('diaryDB')) {
     localStorage.setItem('diaryDB', JSON.stringify({}));
 }
 
