@@ -1,0 +1,16 @@
+#wrap {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+p { 
+    box-shadw: 3px 3px 3px rgba(200, 200, 200, .5);
+}
+
+#wrap div.idpw input {
+    width: 200px;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

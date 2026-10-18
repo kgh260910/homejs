@@ -1,0 +1,69 @@
+#wrap {
+    width: 500px;
+    height : 300px;
+    background-color: #00f;
+    padding-top: 10px;
+}
+
+
+
+#wrap div.design {
+    width: 400px;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 30px auto;
+    position: relative;
+
+}
+
+#wrap div.design li.sale {
+    width: 300px;
+    height: 230px;
+    margin: 0px auto;
+}
+
+#wrap div.design li.sale > div:nth-child(1) {
+    text-align: center;
+    font-weight: bold;
+    font-size: 5em;
+    margin-top: 25px;
+}
+
+#wrap div.design li.sale > div:nth-child(2) {
+    text-align: center;
+    font-weight: bold;
+    font-size: .8em;
+    margin-top: 10px;
+}
+
+
+
+
+#wrap div.design li.gap {
+    width: 1px;
+    height: 230px;
+    background-color: #dadada;
+}
+
+
+
+
+
+#wrap > div.design > div.hole_left {
+    position:absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #00f;
+    top: 90px; left: -20px;
+}
+
+#wrap > div.design > div.hole_right {
+    position:absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #00f;
+    top: 90px; right: -20px;
+}
