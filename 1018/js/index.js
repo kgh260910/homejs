@@ -26,6 +26,7 @@ function addEvents() {
         console.log('signInMenuBtn CLICKED!!');
 
         showSelectedView(VIEW_NO.SIGN_IN_VIEW);
+        setMenuStatus(SIGN_IN_STATUS);
 
     });
 
@@ -34,6 +35,7 @@ function addEvents() {
         console.log('signOutMenuBtn CLICKED!!');
 
         showSelectedView(VIEW_NO.SIGN_OUT_VIEW);
+        setMenuStatus(SIGN_OUT_STATUS);
 
     });
 
